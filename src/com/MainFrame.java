@@ -1,5 +1,7 @@
 package com;
 
+import src.com.company.GraphicsDisplay;
+
 import javax.swing.*;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
@@ -13,7 +15,7 @@ public class MainFrame extends JFrame {
     private JFileChooser fileChooser=null;
     private JCheckBoxMenuItem showAxisMenuItem;
     private JCheckBoxMenuItem showMarkersMenuItem;
-    private com.GraphicsDisplay display=new com.GraphicsDisplay();
+    private GraphicsDisplay display=new GraphicsDisplay();
     private boolean fileLoaded=false;
 
     public MainFrame() {
